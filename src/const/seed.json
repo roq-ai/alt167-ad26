@@ -1,0 +1,2472 @@
+[
+  {
+    "sales_representative": [
+      {
+        "id": "e82f8d46-09b5-421e-bce4-bb1e6aa5f576",
+        "position": "Sales Representative",
+        "hire_date": "2023-08-18T19:43:21.203Z",
+        "salary": 3091,
+        "department": "Sales",
+        "created_at": "2023-08-19T04:33:49.342Z",
+        "updated_at": "2023-08-19T10:00:48.414Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5e049848-89c5-4c25-b84a-d26125282fde",
+        "position": "Senior Sales Representative",
+        "hire_date": "2023-08-19T10:16:20.965Z",
+        "salary": 98941,
+        "department": "Marketing",
+        "created_at": "2023-08-19T00:19:08.328Z",
+        "updated_at": "2023-08-19T15:42:05.074Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "99e92d61-f846-4b04-b547-946703db11ac",
+        "position": "Regional Sales Manager",
+        "hire_date": "2023-08-19T02:58:15.762Z",
+        "salary": 87086,
+        "department": "Business Development",
+        "created_at": "2023-08-18T19:39:34.241Z",
+        "updated_at": "2023-08-19T00:11:37.434Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "17ae7d3c-5c9d-4f98-9469-b413f1602186",
+        "position": "Sales Executive",
+        "hire_date": "2023-08-18T23:54:32.313Z",
+        "salary": 37377,
+        "department": "Customer Success",
+        "created_at": "2023-08-18T23:10:41.182Z",
+        "updated_at": "2023-08-19T18:04:34.761Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89836412-e68b-4925-b600-ea4ab0f7ba61",
+        "position": "Sales Consultant",
+        "hire_date": "2023-08-19T14:27:32.466Z",
+        "salary": 78440,
+        "department": "Account Management",
+        "created_at": "2023-08-19T02:24:39.772Z",
+        "updated_at": "2023-08-19T12:01:11.818Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "role": [
+      {
+        "id": "62aa2e53-7340-4979-8adf-f1ddb1b04ba3",
+        "role_name": "Admin",
+        "role_description": "Responsible for managing operations",
+        "created_at": "2023-08-19T04:39:44.998Z",
+        "updated_at": "2023-08-19T12:16:58.460Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "681e9a3e-acd7-4a25-b14c-3543902b42fe",
+        "role_name": "Manager",
+        "role_description": "Oversees team performance",
+        "created_at": "2023-08-19T01:24:14.614Z",
+        "updated_at": "2023-08-18T18:52:06.106Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "266b2685-70e5-4881-95cd-a8d05ed38373",
+        "role_name": "Supervisor",
+        "role_description": "Coordinates project activities",
+        "created_at": "2023-08-19T01:46:23.939Z",
+        "updated_at": "2023-08-19T17:34:11.023Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad5a5dd7-24f9-4c10-90c1-1878d724f494",
+        "role_name": "Coordinator",
+        "role_description": "Analyzes data and provides insights",
+        "created_at": "2023-08-19T17:55:14.037Z",
+        "updated_at": "2023-08-19T09:22:51.530Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8024563f-318e-45c0-a14c-cf12312bd98a",
+        "role_name": "Analyst",
+        "role_description": "Supports decision-making process",
+        "created_at": "2023-08-19T18:20:16.598Z",
+        "updated_at": "2023-08-19T14:40:22.449Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "it_technician": [
+      {
+        "id": "6d9d500f-38f9-4cbe-b8bd-f7dc6ea7441c",
+        "position": "IT Technician",
+        "hire_date": "2023-08-19T03:54:35.172Z",
+        "salary": 7079,
+        "department": "IT",
+        "created_at": "2023-08-18T20:01:37.564Z",
+        "updated_at": "2023-08-19T09:30:06.310Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89d6485f-5116-46a9-9260-4015bdf68682",
+        "position": "Senior IT Technician",
+        "hire_date": "2023-08-19T07:26:55.581Z",
+        "salary": 526,
+        "department": "Technology",
+        "created_at": "2023-08-19T07:55:35.556Z",
+        "updated_at": "2023-08-19T13:44:42.732Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0eec52c5-e48d-4917-a36b-6cca1ec66141",
+        "position": "IT Support Specialist",
+        "hire_date": "2023-08-18T21:15:28.530Z",
+        "salary": 95386,
+        "department": "Information Systems",
+        "created_at": "2023-08-19T01:36:46.207Z",
+        "updated_at": "2023-08-19T15:28:21.339Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d64da273-93fb-42d8-b04b-013fa4a1ed7b",
+        "position": "Network Administrator",
+        "hire_date": "2023-08-19T03:40:59.101Z",
+        "salary": 71481,
+        "department": "Network Operations",
+        "created_at": "2023-08-18T20:25:23.057Z",
+        "updated_at": "2023-08-18T23:27:55.200Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b6c82719-ca66-44c9-aa6e-a4e1e2b15ad7",
+        "position": "Systems Engineer",
+        "hire_date": "2023-08-19T04:13:25.694Z",
+        "salary": 81443,
+        "department": "Infrastructure",
+        "created_at": "2023-08-19T15:10:43.339Z",
+        "updated_at": "2023-08-18T23:08:19.514Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "07885938-bd11-494a-bea6-875af95759ac",
+        "position": "Administrator",
+        "hire_date": "2023-08-18T23:10:11.395Z",
+        "salary": 76652,
+        "department": "Administration",
+        "created_at": "2023-08-19T10:07:15.673Z",
+        "updated_at": "2023-08-19T04:05:36.374Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "42226e9d-e6a5-4a9e-af39-32b200058f06",
+        "position": "Senior Administrator",
+        "hire_date": "2023-08-19T13:22:16.776Z",
+        "salary": 87185,
+        "department": "Operations",
+        "created_at": "2023-08-19T08:19:35.401Z",
+        "updated_at": "2023-08-19T05:03:10.087Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "201caa81-8f4c-4e4b-b3e8-e21754606c56",
+        "position": "Office Manager",
+        "hire_date": "2023-08-19T03:02:34.064Z",
+        "salary": 86131,
+        "department": "Human Resources",
+        "created_at": "2023-08-19T10:30:53.208Z",
+        "updated_at": "2023-08-19T07:03:36.336Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "647c6e82-7668-4e15-aa05-33d7b1ce0870",
+        "position": "Executive Assistant",
+        "hire_date": "2023-08-18T21:46:59.573Z",
+        "salary": 26393,
+        "department": "Finance",
+        "created_at": "2023-08-19T14:52:30.346Z",
+        "updated_at": "2023-08-18T22:40:32.765Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "019a6e12-1d2a-4362-afe8-11736a657034",
+        "position": "Operations Coordinator",
+        "hire_date": "2023-08-18T20:06:56.975Z",
+        "salary": 55532,
+        "department": "Legal",
+        "created_at": "2023-08-18T19:22:47.369Z",
+        "updated_at": "2023-08-19T11:49:29.579Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a6867e9d-5cb5-4ee5-b956-d0961d0aba75",
+        "email": "Johnathon.Breitenberg-Gleichner56@gmail.com",
+        "firstName": "Laverna",
+        "lastName": "Bogan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/420.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "12510eae-f621-419a-808c-7abd94c5c680",
+        "email": "Winifred88@yahoo.com",
+        "firstName": "Lisa",
+        "lastName": "Stark",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/786.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6a5fe7a5-50c5-4ee5-877a-0ee2f0359398",
+        "email": "Ciara.Jacobs@yahoo.com",
+        "firstName": "Tony",
+        "lastName": "Kozey",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/447.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "389dea72-1197-49e4-a9a7-1b493a91c3a0",
+        "email": "Kyler.Cruickshank@hotmail.com",
+        "firstName": "Vince",
+        "lastName": "Wolff",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63033673",
+        "tenantId": null
+      },
+      {
+        "reference": "f9a0b00d-f02f-4967-932d-145ce9871f97",
+        "email": "Nickolas.Braun33@gmail.com",
+        "firstName": "Harmony",
+        "lastName": "Orn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/734.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "sales_representative": [
+      {
+        "id": "ae1aa91a-6380-4025-a3c3-9f1af0c5f61e",
+        "position": "Sales Manager",
+        "hire_date": "2023-08-19T00:56:34.136Z",
+        "salary": 76154,
+        "department": "Sales",
+        "created_at": "2023-08-19T12:43:22.143Z",
+        "updated_at": "2023-08-19T08:30:35.248Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "22bbdc09-51bf-4030-ab95-d075d6db9d07",
+        "position": "Account Executive",
+        "hire_date": "2023-08-19T15:29:45.579Z",
+        "salary": 1745,
+        "department": "Business Development",
+        "created_at": "2023-08-19T11:16:14.526Z",
+        "updated_at": "2023-08-19T03:09:26.649Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3edf25cd-fda2-4efc-aaa0-d3eeaf29b4d6",
+        "position": "Sales Consultant",
+        "hire_date": "2023-08-18T22:29:52.177Z",
+        "salary": 79975,
+        "department": "Account Management",
+        "created_at": "2023-08-19T07:10:07.794Z",
+        "updated_at": "2023-08-18T22:28:22.030Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f7d4a8c-2fb4-4513-84d9-cecb7c67efb6",
+        "position": "Business Development Manager",
+        "hire_date": "2023-08-19T10:13:06.411Z",
+        "salary": 80090,
+        "department": "Marketing",
+        "created_at": "2023-08-19T08:22:52.680Z",
+        "updated_at": "2023-08-19T11:48:21.692Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aebf7b31-76d0-4b17-9dea-03454bc46f21",
+        "position": "Sales Analyst",
+        "hire_date": "2023-08-19T13:04:26.393Z",
+        "salary": 90226,
+        "department": "Customer Success",
+        "created_at": "2023-08-19T18:25:23.980Z",
+        "updated_at": "2023-08-19T02:14:00.966Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "role": [
+      {
+        "id": "0b298099-d6d4-4708-b53a-7071454bab63",
+        "role_name": "Admin",
+        "role_description": "Responsible for managing the team",
+        "created_at": "2023-08-19T14:45:28.449Z",
+        "updated_at": "2023-08-19T11:27:19.516Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f63e174a-1e6e-44dd-9e9e-18a7c8aeabc8",
+        "role_name": "Manager",
+        "role_description": "Overseeing day-to-day operations",
+        "created_at": "2023-08-19T01:35:37.697Z",
+        "updated_at": "2023-08-19T17:22:44.623Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a144d674-178c-40de-b9d2-9e3be1c37079",
+        "role_name": "Supervisor",
+        "role_description": "Providing guidance and support",
+        "created_at": "2023-08-18T21:51:10.271Z",
+        "updated_at": "2023-08-19T16:14:18.878Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "438cab35-9058-43c0-8986-09d3f2e45608",
+        "role_name": "Team Lead",
+        "role_description": "Ensuring targets are met",
+        "created_at": "2023-08-18T22:45:00.837Z",
+        "updated_at": "2023-08-19T12:00:34.883Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "036c3eae-d8bb-4fbb-8ba8-8a3a7894c6a0",
+        "role_name": "Employee",
+        "role_description": "Collaborating with cross-functional teams",
+        "created_at": "2023-08-19T13:42:44.080Z",
+        "updated_at": "2023-08-18T22:59:44.316Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "it_technician": [
+      {
+        "id": "db325a2a-46df-4caa-a56e-3fab1179d170",
+        "position": "IT Manager",
+        "hire_date": "2023-08-19T17:07:07.408Z",
+        "salary": 48772,
+        "department": "IT",
+        "created_at": "2023-08-19T07:22:47.211Z",
+        "updated_at": "2023-08-19T13:19:01.616Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a846341-955d-41d8-8f5c-cc1e5eb76887",
+        "position": "Network Administrator",
+        "hire_date": "2023-08-19T14:34:00.202Z",
+        "salary": 65932,
+        "department": "Information Systems",
+        "created_at": "2023-08-19T14:20:53.610Z",
+        "updated_at": "2023-08-18T23:38:19.193Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9b973a5e-54e0-4abf-a7e8-47c27d50dc23",
+        "position": "Systems Analyst",
+        "hire_date": "2023-08-19T01:02:27.426Z",
+        "salary": 96604,
+        "department": "Technology",
+        "created_at": "2023-08-18T18:46:14.937Z",
+        "updated_at": "2023-08-19T11:45:09.116Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fc606340-bf0b-425c-9d07-303a23f40a12",
+        "position": "Help Desk Technician",
+        "hire_date": "2023-08-19T15:30:18.272Z",
+        "salary": 35488,
+        "department": "Infrastructure",
+        "created_at": "2023-08-18T21:42:40.883Z",
+        "updated_at": "2023-08-19T02:13:17.353Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4c16409-62d2-4579-98d7-8447774d0d77",
+        "position": "Database Administrator",
+        "hire_date": "2023-08-18T18:56:49.924Z",
+        "salary": 51138,
+        "department": "Support",
+        "created_at": "2023-08-19T06:51:13.987Z",
+        "updated_at": "2023-08-19T08:21:53.376Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "bb88333b-a7f2-4613-8438-080b8a27f5c2",
+        "position": "Administrative Manager",
+        "hire_date": "2023-08-19T12:15:08.881Z",
+        "salary": 82835,
+        "department": "Administration",
+        "created_at": "2023-08-19T01:26:56.915Z",
+        "updated_at": "2023-08-19T02:38:16.066Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "045762b8-4d77-472a-90d6-1433a0c97b23",
+        "position": "Office Coordinator",
+        "hire_date": "2023-08-18T23:00:31.929Z",
+        "salary": 60698,
+        "department": "Operations",
+        "created_at": "2023-08-19T10:07:46.541Z",
+        "updated_at": "2023-08-19T17:41:32.001Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1db3562f-506d-4619-81f3-0416731b431a",
+        "position": "Executive Assistant",
+        "hire_date": "2023-08-19T05:35:47.077Z",
+        "salary": 96329,
+        "department": "Human Resources",
+        "created_at": "2023-08-19T01:30:45.624Z",
+        "updated_at": "2023-08-19T06:16:04.897Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1d99e079-5f2f-47b5-9789-8e90b30f4021",
+        "position": "Operations Supervisor",
+        "hire_date": "2023-08-19T03:37:11.009Z",
+        "salary": 54473,
+        "department": "Finance",
+        "created_at": "2023-08-18T20:51:16.246Z",
+        "updated_at": "2023-08-18T20:12:04.855Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16800b60-9365-4f70-816e-a313834586d8",
+        "position": "Office Administrator",
+        "hire_date": "2023-08-19T12:44:36.681Z",
+        "salary": 35183,
+        "department": "Facilities",
+        "created_at": "2023-08-19T07:46:53.601Z",
+        "updated_at": "2023-08-19T00:11:58.188Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7535b847-35de-450d-af0f-ee956e6f15d5",
+        "email": "Alana49@yahoo.com",
+        "firstName": "Carlee",
+        "lastName": "Bogan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1035.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "75b75d95-2bf6-44cd-9838-f913b1abc0d5",
+        "email": "Reina_Fisher-Leannon@hotmail.com",
+        "firstName": "Otha",
+        "lastName": "Lind",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1133.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cf69ba09-f527-4c95-8278-1619f9e23661",
+        "email": "Stanton.Veum85@gmail.com",
+        "firstName": "Scottie",
+        "lastName": "Emmerich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/360.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b9e05c60-afb1-47c9-bf60-79e08866c525",
+        "email": "Vincenzo.Klocko62@gmail.com",
+        "firstName": "Vincent",
+        "lastName": "Schamberger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/969.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f25c90a9-f645-495a-8e91-5da8d4569b24",
+        "email": "Jamal_Daugherty@gmail.com",
+        "firstName": "Odessa",
+        "lastName": "Borer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95388906",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "sales_representative": [
+      {
+        "id": "a429be53-a9ec-4345-81f5-8df4de07cf4e",
+        "position": "Sales Manager",
+        "hire_date": "2023-08-19T09:02:35.144Z",
+        "salary": 59416,
+        "department": "Sales",
+        "created_at": "2023-08-19T03:51:57.617Z",
+        "updated_at": "2023-08-19T06:12:45.597Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e5ff164-105d-42ec-9041-c7b27e2a7a69",
+        "position": "Sales Executive",
+        "hire_date": "2023-08-19T08:03:57.189Z",
+        "salary": 93185,
+        "department": "Marketing",
+        "created_at": "2023-08-18T19:54:59.837Z",
+        "updated_at": "2023-08-19T08:50:42.898Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "468e5e09-6a73-4287-92db-df931afaeabd",
+        "position": "Sales Consultant",
+        "hire_date": "2023-08-18T20:16:34.405Z",
+        "salary": 53511,
+        "department": "Business Development",
+        "created_at": "2023-08-19T16:10:09.299Z",
+        "updated_at": "2023-08-18T20:52:57.196Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "11200c41-8387-42c6-9a7e-8daf66c500d0",
+        "position": "Sales Associate",
+        "hire_date": "2023-08-19T10:07:13.496Z",
+        "salary": 4984,
+        "department": "Customer Success",
+        "created_at": "2023-08-19T16:54:31.090Z",
+        "updated_at": "2023-08-19T12:13:42.877Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d89c7d9-bea7-4b7f-bef6-918fa439418f",
+        "position": "Sales Analyst",
+        "hire_date": "2023-08-19T14:55:32.947Z",
+        "salary": 52918,
+        "department": "Account Management",
+        "created_at": "2023-08-19T17:52:23.889Z",
+        "updated_at": "2023-08-19T12:35:52.345Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "role": [
+      {
+        "id": "320cb5e8-c05e-40a7-babc-39906bacdd51",
+        "role_name": "Admin",
+        "role_description": "Responsible for managing the team",
+        "created_at": "2023-08-19T09:58:06.161Z",
+        "updated_at": "2023-08-19T11:04:07.703Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5be3c95d-bdc3-4e28-ad9c-5f0645e99889",
+        "role_name": "Manager",
+        "role_description": "Handles day-to-day operations",
+        "created_at": "2023-08-19T11:37:19.713Z",
+        "updated_at": "2023-08-19T06:41:13.205Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e19cdc1-9687-43f8-a3ec-ea87c73145a3",
+        "role_name": "Supervisor",
+        "role_description": "Provides guidance and support",
+        "created_at": "2023-08-19T08:38:18.919Z",
+        "updated_at": "2023-08-19T18:27:54.250Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0af45fc9-d202-48a6-ae5c-e8e28c406888",
+        "role_name": "Team Lead",
+        "role_description": "Ensures smooth workflow",
+        "created_at": "2023-08-19T13:43:45.171Z",
+        "updated_at": "2023-08-19T07:00:51.764Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d45574fd-0d4c-42c6-9999-b0670ec3518e",
+        "role_name": "Staff",
+        "role_description": "Executes assigned tasks",
+        "created_at": "2023-08-19T10:11:09.391Z",
+        "updated_at": "2023-08-19T13:02:54.169Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "it_technician": [
+      {
+        "id": "0e342405-4aec-4de3-968b-36a207363174",
+        "position": "IT Manager",
+        "hire_date": "2023-08-19T14:21:17.723Z",
+        "salary": 78317,
+        "department": "IT",
+        "created_at": "2023-08-19T11:35:39.760Z",
+        "updated_at": "2023-08-19T01:49:03.527Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "997ec21f-d65b-454f-bc9b-2f9a46b50915",
+        "position": "IT Specialist",
+        "hire_date": "2023-08-18T19:50:32.024Z",
+        "salary": 37576,
+        "department": "Technology",
+        "created_at": "2023-08-19T06:05:42.093Z",
+        "updated_at": "2023-08-19T03:02:52.102Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dbdd135c-829e-44ca-8171-9825e2d7db9a",
+        "position": "IT Support Engineer",
+        "hire_date": "2023-08-19T09:31:14.186Z",
+        "salary": 18105,
+        "department": "Information Systems",
+        "created_at": "2023-08-19T10:12:57.802Z",
+        "updated_at": "2023-08-19T00:17:33.253Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d5abedb-85c7-466c-9151-df66e71cf437",
+        "position": "Network Administrator",
+        "hire_date": "2023-08-19T12:30:46.626Z",
+        "salary": 71237,
+        "department": "Infrastructure",
+        "created_at": "2023-08-18T20:17:39.457Z",
+        "updated_at": "2023-08-18T19:32:51.332Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3aad0800-6de2-4db2-98e7-29693998b9d9",
+        "position": "System Analyst",
+        "hire_date": "2023-08-19T17:34:21.411Z",
+        "salary": 78388,
+        "department": "Network",
+        "created_at": "2023-08-19T08:08:53.639Z",
+        "updated_at": "2023-08-19T17:46:23.632Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "d738f8e5-f3b5-4392-a98c-367937982e0a",
+        "position": "Admin Manager",
+        "hire_date": "2023-08-18T22:54:56.607Z",
+        "salary": 94272,
+        "department": "Administration",
+        "created_at": "2023-08-19T15:52:31.121Z",
+        "updated_at": "2023-08-19T11:51:58.539Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "44e05d35-95a9-4b00-abda-b7e3f3e57a97",
+        "position": "Admin Officer",
+        "hire_date": "2023-08-19T12:39:28.053Z",
+        "salary": 84735,
+        "department": "Operations",
+        "created_at": "2023-08-19T00:26:37.995Z",
+        "updated_at": "2023-08-19T14:52:30.498Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ab2ce08-aa72-4985-860e-b06fb3ed408e",
+        "position": "Admin Assistant",
+        "hire_date": "2023-08-19T00:25:48.690Z",
+        "salary": 35663,
+        "department": "Human Resources",
+        "created_at": "2023-08-19T15:25:33.633Z",
+        "updated_at": "2023-08-19T10:25:47.043Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "866ddec0-2840-45ae-883f-e34837ea6d5b",
+        "position": "Office Administrator",
+        "hire_date": "2023-08-18T19:47:52.923Z",
+        "salary": 73606,
+        "department": "Finance",
+        "created_at": "2023-08-18T22:44:38.213Z",
+        "updated_at": "2023-08-19T09:09:17.646Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "177cdd7b-0c4c-4761-8745-26597cb86553",
+        "position": "Executive Administrator",
+        "hire_date": "2023-08-18T21:40:51.643Z",
+        "salary": 36275,
+        "department": "Facilities",
+        "created_at": "2023-08-19T17:23:04.297Z",
+        "updated_at": "2023-08-18T21:43:43.603Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "16d507e5-e07a-4754-9e63-1a71473c6d44",
+        "email": "Cyrus.Hane48@hotmail.com",
+        "firstName": "Allie",
+        "lastName": "Hills",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/592.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "379e0294-496c-4828-9fcd-eb2381d70653",
+        "email": "Hailey.Lubowitz79@yahoo.com",
+        "firstName": "Janiya",
+        "lastName": "Gorczany",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/709.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4eddb409-9c0f-4ecf-bd99-b9a2188c7bad",
+        "email": "Justice.Mayert55@hotmail.com",
+        "firstName": "Bria",
+        "lastName": "Jakubowski",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/82588671",
+        "tenantId": null
+      },
+      {
+        "reference": "b5bc1c6b-fc70-4c5f-9a0d-dd111fc85013",
+        "email": "Ludie98@hotmail.com",
+        "firstName": "Lillian",
+        "lastName": "Stiedemann",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/63315650",
+        "tenantId": null
+      },
+      {
+        "reference": "f4ff0194-d547-42a0-ac18-c90f58ec952a",
+        "email": "Asha_Kovacek60@hotmail.com",
+        "firstName": "Lavada",
+        "lastName": "Witting",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10841659",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "sales_representative": [
+      {
+        "id": "f7907bd4-cb4a-47a6-8725-390567d9ce42",
+        "position": "Sales Manager",
+        "hire_date": "2023-08-19T00:44:07.595Z",
+        "salary": 17136,
+        "department": "Sales",
+        "created_at": "2023-08-19T05:07:23.351Z",
+        "updated_at": "2023-08-19T04:59:02.843Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a90a5de7-c00e-48e5-94aa-0bc6ac9799df",
+        "position": "Sales Executive",
+        "hire_date": "2023-08-19T09:25:29.409Z",
+        "salary": 94365,
+        "department": "Marketing",
+        "created_at": "2023-08-19T07:21:40.373Z",
+        "updated_at": "2023-08-18T20:46:26.012Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83491b7e-3a35-4c57-92d6-89408217afe0",
+        "position": "Sales Associate",
+        "hire_date": "2023-08-19T12:41:44.694Z",
+        "salary": 66436,
+        "department": "Business Development",
+        "created_at": "2023-08-19T11:31:47.701Z",
+        "updated_at": "2023-08-19T07:40:28.305Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "19247821-8461-4080-a49f-675bf5f7acd0",
+        "position": "Sales Consultant",
+        "hire_date": "2023-08-19T18:34:36.716Z",
+        "salary": 31818,
+        "department": "Customer Success",
+        "created_at": "2023-08-19T02:57:30.211Z",
+        "updated_at": "2023-08-19T02:46:48.033Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e42b9e14-26fc-4faa-9db6-f16c615a3a47",
+        "position": "Sales Specialist",
+        "hire_date": "2023-08-18T19:24:23.126Z",
+        "salary": 33762,
+        "department": "Account Management",
+        "created_at": "2023-08-19T18:13:33.930Z",
+        "updated_at": "2023-08-19T15:22:13.329Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "role": [
+      {
+        "id": "36543552-58f5-4009-823b-4c8443c83ff8",
+        "role_name": "Admin",
+        "role_description": "Responsible for managing the team",
+        "created_at": "2023-08-19T09:21:27.660Z",
+        "updated_at": "2023-08-19T01:57:27.658Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3bcd9077-efdb-4053-bec4-99d6869cae5f",
+        "role_name": "Manager",
+        "role_description": "Handles day-to-day operations",
+        "created_at": "2023-08-19T02:05:47.397Z",
+        "updated_at": "2023-08-18T23:47:06.852Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3c6254c5-668c-492f-83d3-7b7bdea46350",
+        "role_name": "Supervisor",
+        "role_description": "Provides guidance and support",
+        "created_at": "2023-08-19T08:40:30.747Z",
+        "updated_at": "2023-08-19T18:00:37.551Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "47dd73e9-5114-472f-a249-93c36f7114ed",
+        "role_name": "Team Lead",
+        "role_description": "Leads projects and initiatives",
+        "created_at": "2023-08-19T10:45:20.721Z",
+        "updated_at": "2023-08-19T04:57:03.118Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97749c48-55ae-45c9-8110-900e708f061f",
+        "role_name": "Employee",
+        "role_description": "Performs assigned tasks and responsibilities",
+        "created_at": "2023-08-19T03:46:05.927Z",
+        "updated_at": "2023-08-19T10:08:18.689Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "it_technician": [
+      {
+        "id": "d0661acb-b558-427a-b3f0-ecac027f8653",
+        "position": "IT Manager",
+        "hire_date": "2023-08-19T01:06:27.240Z",
+        "salary": 16085,
+        "department": "IT",
+        "created_at": "2023-08-19T11:37:46.020Z",
+        "updated_at": "2023-08-19T03:29:34.307Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "81324ae8-4815-4994-a29a-dd3df7da43bf",
+        "position": "IT Specialist",
+        "hire_date": "2023-08-19T14:57:41.572Z",
+        "salary": 75572,
+        "department": "Technology",
+        "created_at": "2023-08-19T00:22:10.366Z",
+        "updated_at": "2023-08-19T18:11:18.025Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b8d6706e-8700-466a-a57c-546e7eab2d51",
+        "position": "IT Support Analyst",
+        "hire_date": "2023-08-18T23:14:59.547Z",
+        "salary": 82579,
+        "department": "Information Systems",
+        "created_at": "2023-08-19T12:28:49.562Z",
+        "updated_at": "2023-08-18T19:08:54.898Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "43597ee0-61b9-4cf2-9ac8-ac5c9726f370",
+        "position": "Network Administrator",
+        "hire_date": "2023-08-18T19:08:00.563Z",
+        "salary": 9934,
+        "department": "Infrastructure",
+        "created_at": "2023-08-18T19:00:04.701Z",
+        "updated_at": "2023-08-19T07:50:18.124Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d604bc32-4b4e-4ce8-acc5-df091279ed2c",
+        "position": "Systems Engineer",
+        "hire_date": "2023-08-19T11:45:10.145Z",
+        "salary": 11355,
+        "department": "Network Operations",
+        "created_at": "2023-08-18T19:31:29.906Z",
+        "updated_at": "2023-08-19T01:42:41.932Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "bd726392-a7e9-404c-96a6-e27ab2505a3d",
+        "position": "Administrator",
+        "hire_date": "2023-08-19T09:55:21.217Z",
+        "salary": 44054,
+        "department": "Administration",
+        "created_at": "2023-08-19T05:35:49.575Z",
+        "updated_at": "2023-08-19T11:04:30.905Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "659a7ddc-2f0e-4443-abe2-b2bbf25b18af",
+        "position": "Operations Manager",
+        "hire_date": "2023-08-19T01:40:49.327Z",
+        "salary": 14001,
+        "department": "Operations",
+        "created_at": "2023-08-19T09:22:24.398Z",
+        "updated_at": "2023-08-19T06:29:54.227Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "99c652ed-ab70-4fa7-9bd0-b0fc72f177b4",
+        "position": "Office Coordinator",
+        "hire_date": "2023-08-19T03:35:10.519Z",
+        "salary": 12004,
+        "department": "Human Resources",
+        "created_at": "2023-08-18T20:52:34.247Z",
+        "updated_at": "2023-08-19T12:12:41.015Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "099a2df9-f25d-47c9-bcef-a1b5036ce6a2",
+        "position": "Executive Assistant",
+        "hire_date": "2023-08-19T06:32:13.655Z",
+        "salary": 82113,
+        "department": "Finance",
+        "created_at": "2023-08-19T09:08:26.745Z",
+        "updated_at": "2023-08-18T19:39:42.069Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8b109512-0d8b-4b04-bbb1-74cad709e2bb",
+        "position": "Administrative Specialist",
+        "hire_date": "2023-08-19T14:26:28.787Z",
+        "salary": 69263,
+        "department": "Legal",
+        "created_at": "2023-08-18T21:56:23.694Z",
+        "updated_at": "2023-08-18T22:01:13.022Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "5aa734b7-c9a0-49ad-8523-485bfbcbce7e",
+        "email": "Cristina73@hotmail.com",
+        "firstName": "Jamar",
+        "lastName": "Mertz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/206.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "82035c0a-22aa-4ad7-ad69-7980def523f5",
+        "email": "Annabell0@yahoo.com",
+        "firstName": "Erik",
+        "lastName": "Emmerich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/175.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "eb6cc152-b4dd-4706-b30a-83b698674ed0",
+        "email": "Dorthy.Goyette74@hotmail.com",
+        "firstName": "Cameron",
+        "lastName": "Ritchie",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19593391",
+        "tenantId": null
+      },
+      {
+        "reference": "641ed6e0-5c1a-410f-83c2-b430f7a7ab04",
+        "email": "Nyasia.Hane@yahoo.com",
+        "firstName": "Reilly",
+        "lastName": "Simonis",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/315.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "88eabe56-244c-48f5-9fd5-2a28a3e642b1",
+        "email": "Ottilie.Schamberger@hotmail.com",
+        "firstName": "Katherine",
+        "lastName": "Daniel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/758.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "sales_representative": [
+      {
+        "id": "63c3ef9a-7302-49ba-898a-cb356d6ab4fb",
+        "position": "Sales Manager",
+        "hire_date": "2023-08-18T19:07:14.733Z",
+        "salary": 81485,
+        "department": "Sales",
+        "created_at": "2023-08-19T03:52:46.380Z",
+        "updated_at": "2023-08-18T19:26:15.804Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "45d7434e-c2d8-4e06-91ed-28ecafb1dbe8",
+        "position": "Account Executive",
+        "hire_date": "2023-08-18T23:49:42.173Z",
+        "salary": 97134,
+        "department": "Marketing",
+        "created_at": "2023-08-19T08:41:23.582Z",
+        "updated_at": "2023-08-19T03:37:30.681Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed56643c-274f-42de-8850-3f02c98d02d5",
+        "position": "Business Development Manager",
+        "hire_date": "2023-08-18T21:52:26.675Z",
+        "salary": 21028,
+        "department": "Business Development",
+        "created_at": "2023-08-19T03:09:01.716Z",
+        "updated_at": "2023-08-18T23:32:51.006Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6239433a-809a-4b85-b68d-a5019d748dbd",
+        "position": "Sales Consultant",
+        "hire_date": "2023-08-19T14:28:06.121Z",
+        "salary": 89209,
+        "department": "Customer Relations",
+        "created_at": "2023-08-19T16:49:41.059Z",
+        "updated_at": "2023-08-18T19:04:22.570Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "54237567-c497-42e0-8789-76af80d8575b",
+        "position": "Sales Analyst",
+        "hire_date": "2023-08-18T22:03:21.112Z",
+        "salary": 39066,
+        "department": "Account Management",
+        "created_at": "2023-08-19T07:27:22.891Z",
+        "updated_at": "2023-08-19T09:50:36.426Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "role": [
+      {
+        "id": "b196e4c9-2dc9-4631-82ea-fa50461fbcbe",
+        "role_name": "Admin",
+        "role_description": "Responsible for managing the team",
+        "created_at": "2023-08-19T16:51:12.338Z",
+        "updated_at": "2023-08-18T21:03:57.033Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b814f851-74d1-42c5-b067-2583a6c9abf1",
+        "role_name": "Manager",
+        "role_description": "Oversees daily operations",
+        "created_at": "2023-08-18T18:49:08.891Z",
+        "updated_at": "2023-08-19T05:49:09.409Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b53a9e38-3ca9-4f02-8d39-24e3f121b04e",
+        "role_name": "Supervisor",
+        "role_description": "Provides guidance and support",
+        "created_at": "2023-08-19T00:58:43.756Z",
+        "updated_at": "2023-08-19T12:35:39.274Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c2543ea-20e4-4a87-a594-cc835395fe15",
+        "role_name": "Team Lead",
+        "role_description": "Coordinates projects and tasks",
+        "created_at": "2023-08-19T09:32:36.134Z",
+        "updated_at": "2023-08-19T13:20:53.217Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "61dbe3be-4e8b-4bd7-a8e4-259228ae8bb5",
+        "role_name": "Staff",
+        "role_description": "Performs assigned duties",
+        "created_at": "2023-08-19T12:10:35.991Z",
+        "updated_at": "2023-08-19T02:47:47.878Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "it_technician": [
+      {
+        "id": "12c20b23-66b3-418b-bad3-11f94872fd32",
+        "position": "IT Manager",
+        "hire_date": "2023-08-19T01:20:38.149Z",
+        "salary": 16866,
+        "department": "IT",
+        "created_at": "2023-08-19T14:34:49.861Z",
+        "updated_at": "2023-08-19T15:09:50.740Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dadf3173-a2ba-4643-b8df-20b6fb57963c",
+        "position": "Network Administrator",
+        "hire_date": "2023-08-18T21:16:08.610Z",
+        "salary": 83510,
+        "department": "Technology",
+        "created_at": "2023-08-19T17:14:34.973Z",
+        "updated_at": "2023-08-19T10:45:18.350Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "118f58e0-47d5-466b-a451-6eadbc78a96f",
+        "position": "Systems Analyst",
+        "hire_date": "2023-08-19T18:38:21.255Z",
+        "salary": 99951,
+        "department": "Information Systems",
+        "created_at": "2023-08-19T14:19:30.432Z",
+        "updated_at": "2023-08-19T01:52:33.222Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f7461b0f-f7da-41c5-9873-ff241e990c4c",
+        "position": "Help Desk Technician",
+        "hire_date": "2023-08-19T10:17:41.879Z",
+        "salary": 78179,
+        "department": "Network Operations",
+        "created_at": "2023-08-19T18:01:56.349Z",
+        "updated_at": "2023-08-19T18:33:28.330Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bd2f16eb-e55f-4e5b-bec3-aa6799cffa11",
+        "position": "Database Administrator",
+        "hire_date": "2023-08-19T05:36:07.760Z",
+        "salary": 5315,
+        "department": "Technical Support",
+        "created_at": "2023-08-19T17:05:13.993Z",
+        "updated_at": "2023-08-19T14:56:44.852Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "d5937764-3c6b-4ae2-84d2-db47465979e3",
+        "position": "Office Manager",
+        "hire_date": "2023-08-19T11:08:46.671Z",
+        "salary": 20892,
+        "department": "Administration",
+        "created_at": "2023-08-18T19:55:52.181Z",
+        "updated_at": "2023-08-18T19:34:12.306Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "477537c8-3711-444e-9225-243e5b202870",
+        "position": "Executive Assistant",
+        "hire_date": "2023-08-19T00:28:56.226Z",
+        "salary": 92298,
+        "department": "Operations",
+        "created_at": "2023-08-19T08:31:42.242Z",
+        "updated_at": "2023-08-18T21:30:30.266Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1034b264-3c16-43f3-b236-5542d0c3ab57",
+        "position": "Administrative Coordinator",
+        "hire_date": "2023-08-19T11:12:07.519Z",
+        "salary": 68583,
+        "department": "Human Resources",
+        "created_at": "2023-08-19T07:49:06.164Z",
+        "updated_at": "2023-08-19T05:43:21.742Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6213ee2a-7cc7-4529-9c45-dba7597bf349",
+        "position": "Receptionist",
+        "hire_date": "2023-08-19T06:17:05.417Z",
+        "salary": 61958,
+        "department": "Finance",
+        "created_at": "2023-08-18T19:10:07.007Z",
+        "updated_at": "2023-08-18T21:45:10.286Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7a2c7d5d-936c-495d-855a-182202307d37",
+        "position": "Data Entry Specialist",
+        "hire_date": "2023-08-19T05:25:30.137Z",
+        "salary": 31715,
+        "department": "Customer Service",
+        "created_at": "2023-08-19T06:54:20.815Z",
+        "updated_at": "2023-08-19T15:11:34.425Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "76945053-4169-4e0d-898a-24304bdfb34f",
+        "email": "Savion.Wuckert92@gmail.com",
+        "firstName": "Josiane",
+        "lastName": "Schoen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/801.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b7221a53-ed16-40e3-92bc-13128010f771",
+        "email": "Damien86@gmail.com",
+        "firstName": "Joaquin",
+        "lastName": "Schultz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/781.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7aaf8dc2-f80a-4de9-94a7-e858066c210c",
+        "email": "Alejandrin.Bailey@gmail.com",
+        "firstName": "Orie",
+        "lastName": "Wilderman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/26.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "677208b7-61e0-40e0-bf02-3f33970ef7e2",
+        "email": "Vada_Bahringer@yahoo.com",
+        "firstName": "Price",
+        "lastName": "Stark",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/15232627",
+        "tenantId": null
+      },
+      {
+        "reference": "b510ecb9-9d3b-4555-858a-fb727a0d96e4",
+        "email": "Norberto0@yahoo.com",
+        "firstName": "Judge",
+        "lastName": "Wolf",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/132.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "sales_representative": [
+      {
+        "id": "e9a2fd54-b6ea-4022-9477-e91311e7395e",
+        "position": "Sales Manager",
+        "hire_date": "2023-08-19T16:22:15.193Z",
+        "salary": 79162,
+        "department": "Sales",
+        "created_at": "2023-08-19T07:54:45.885Z",
+        "updated_at": "2023-08-19T02:50:46.985Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79d6f871-326d-4bfe-a00e-c978ced788fc",
+        "position": "Sales Executive",
+        "hire_date": "2023-08-19T01:51:28.156Z",
+        "salary": 20251,
+        "department": "Business Development",
+        "created_at": "2023-08-18T22:08:30.108Z",
+        "updated_at": "2023-08-19T16:21:47.517Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b3d2de71-d38b-40ed-9d36-39704f7ebd57",
+        "position": "Sales Consultant",
+        "hire_date": "2023-08-19T09:15:03.901Z",
+        "salary": 80366,
+        "department": "Account Management",
+        "created_at": "2023-08-19T01:55:01.434Z",
+        "updated_at": "2023-08-19T02:27:14.307Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "91ff79ef-5b2a-4283-8d09-ee50eaaff004",
+        "position": "Sales Associate",
+        "hire_date": "2023-08-19T14:20:02.168Z",
+        "salary": 8692,
+        "department": "Marketing",
+        "created_at": "2023-08-19T09:48:01.747Z",
+        "updated_at": "2023-08-18T20:28:16.269Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9820a92e-ab9a-4c38-af5e-22b4e04c12fd",
+        "position": "Sales Analyst",
+        "hire_date": "2023-08-19T02:02:01.489Z",
+        "salary": 26693,
+        "department": "Customer Relations",
+        "created_at": "2023-08-18T19:59:38.434Z",
+        "updated_at": "2023-08-19T09:05:58.446Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "role": [
+      {
+        "id": "1ed2e5b9-a639-4369-b9bf-798ba49c7aa0",
+        "role_name": "Admin",
+        "role_description": "Responsible for managing the team",
+        "created_at": "2023-08-19T01:16:42.541Z",
+        "updated_at": "2023-08-18T21:33:08.729Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "084f7aaa-9375-4024-aaeb-55619dbe96e1",
+        "role_name": "Manager",
+        "role_description": "Overseeing daily operations",
+        "created_at": "2023-08-18T22:50:29.053Z",
+        "updated_at": "2023-08-19T11:36:10.576Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "380babf0-4c0d-41e7-9bf5-7453c64b0c25",
+        "role_name": "Supervisor",
+        "role_description": "Providing guidance and support",
+        "created_at": "2023-08-19T12:35:13.499Z",
+        "updated_at": "2023-08-19T01:36:16.166Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df474f0b-c022-406b-8c71-a3317941d30a",
+        "role_name": "Team Lead",
+        "role_description": "Ensuring targets are met",
+        "created_at": "2023-08-19T10:09:34.482Z",
+        "updated_at": "2023-08-18T23:28:06.367Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9f6ffb3e-5fac-466f-bf65-87e4a45762b9",
+        "role_name": "Staff",
+        "role_description": "Collaborating with other departments",
+        "created_at": "2023-08-19T14:13:46.190Z",
+        "updated_at": "2023-08-18T20:59:25.607Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "it_technician": [
+      {
+        "id": "8934eba2-b9d4-46af-bf64-be80ce26572e",
+        "position": "IT Manager",
+        "hire_date": "2023-08-19T01:44:00.657Z",
+        "salary": 36084,
+        "department": "IT",
+        "created_at": "2023-08-19T15:25:34.742Z",
+        "updated_at": "2023-08-18T19:32:35.345Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5bd5cfd0-277e-4a0f-a4e0-1a521a479656",
+        "position": "IT Specialist",
+        "hire_date": "2023-08-19T06:53:28.197Z",
+        "salary": 63205,
+        "department": "Technology Services",
+        "created_at": "2023-08-19T00:35:31.948Z",
+        "updated_at": "2023-08-19T01:13:53.417Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c4174a2b-d30b-4beb-ae50-9194e60ca45d",
+        "position": "IT Support Technician",
+        "hire_date": "2023-08-18T23:21:29.889Z",
+        "salary": 92049,
+        "department": "Infrastructure",
+        "created_at": "2023-08-19T00:39:19.138Z",
+        "updated_at": "2023-08-19T08:34:40.854Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "18e53c18-aa8b-4572-aee0-553c8b3203ef",
+        "position": "Network Administrator",
+        "hire_date": "2023-08-19T03:37:58.445Z",
+        "salary": 36727,
+        "department": "Information Security",
+        "created_at": "2023-08-19T01:25:28.743Z",
+        "updated_at": "2023-08-19T02:55:58.469Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "42fdfc92-054d-49a3-b44d-c8fd5ad65790",
+        "position": "Systems Analyst",
+        "hire_date": "2023-08-19T10:29:03.292Z",
+        "salary": 7426,
+        "department": "Software Development",
+        "created_at": "2023-08-19T13:12:30.774Z",
+        "updated_at": "2023-08-19T14:06:54.722Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "f778e3ab-f0f5-4643-8f87-08ce47e53073",
+        "position": "Administrator",
+        "hire_date": "2023-08-19T00:53:19.939Z",
+        "salary": 44758,
+        "department": "Administration",
+        "created_at": "2023-08-19T13:31:34.574Z",
+        "updated_at": "2023-08-18T23:13:25.795Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2172c5cd-167d-40e6-84ed-e8663bbb70cd",
+        "position": "Office Manager",
+        "hire_date": "2023-08-18T23:09:14.383Z",
+        "salary": 95957,
+        "department": "Human Resources",
+        "created_at": "2023-08-18T23:44:05.867Z",
+        "updated_at": "2023-08-19T09:04:43.310Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cedbcc4c-0ba9-4967-88f4-27665e3e7f78",
+        "position": "Executive Assistant",
+        "hire_date": "2023-08-19T02:52:43.893Z",
+        "salary": 64296,
+        "department": "Finance",
+        "created_at": "2023-08-19T16:05:05.520Z",
+        "updated_at": "2023-08-18T20:50:56.427Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a0237d8-4f6d-4d87-9938-06c8d77e01b7",
+        "position": "Operations Coordinator",
+        "hire_date": "2023-08-19T13:49:13.450Z",
+        "salary": 14103,
+        "department": "Procurement",
+        "created_at": "2023-08-18T23:19:17.467Z",
+        "updated_at": "2023-08-19T16:34:33.983Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0e4bae43-bc5e-4175-b194-96381ac35c47",
+        "position": "Administrative Specialist",
+        "hire_date": "2023-08-19T06:08:25.297Z",
+        "salary": 54347,
+        "department": "Facilities",
+        "created_at": "2023-08-19T06:22:04.453Z",
+        "updated_at": "2023-08-19T17:31:29.825Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "36b1e7b7-8c56-47db-a4b1-dfc9c2f257a3",
+        "email": "Jocelyn.Aufderhar@gmail.com",
+        "firstName": "Omari",
+        "lastName": "Reilly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/622.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "94828d0f-1758-430e-8551-b125f4d07fe8",
+        "email": "Keara.Lehner47@gmail.com",
+        "firstName": "Alf",
+        "lastName": "Hane",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1124.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "eecb8c2f-d78e-4565-a59a-84faba93290b",
+        "email": "Madelyn67@yahoo.com",
+        "firstName": "Jamey",
+        "lastName": "Roob",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/321.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3f9a1e17-3a58-47ab-834c-a64a0329d663",
+        "email": "Friedrich.Hickle@hotmail.com",
+        "firstName": "Golda",
+        "lastName": "Ernser",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/982.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "59db9dfb-6aa2-4e54-87a6-2f29b2289720",
+        "email": "Alize.Wuckert@hotmail.com",
+        "firstName": "Rupert",
+        "lastName": "Hermiston",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/44887252",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "sales_representative": [
+      {
+        "id": "0cb8922b-d5be-4cb5-8bc6-194b52fdfcdf",
+        "position": "Sales Manager",
+        "hire_date": "2023-08-18T21:09:46.917Z",
+        "salary": 43319,
+        "department": "Sales",
+        "created_at": "2023-08-19T01:29:07.285Z",
+        "updated_at": "2023-08-19T00:19:09.654Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "694879e0-1512-4cf0-92e1-5a43902d92f9",
+        "position": "Sales Executive",
+        "hire_date": "2023-08-19T16:36:20.271Z",
+        "salary": 11487,
+        "department": "Marketing",
+        "created_at": "2023-08-18T22:21:20.593Z",
+        "updated_at": "2023-08-18T23:13:25.545Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c64611f7-bfd2-46be-a0c4-0ece809d5c5b",
+        "position": "Sales Consultant",
+        "hire_date": "2023-08-19T17:33:30.708Z",
+        "salary": 61388,
+        "department": "Business Development",
+        "created_at": "2023-08-19T02:18:57.063Z",
+        "updated_at": "2023-08-19T01:33:36.545Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1a08dbb8-4db8-4681-abab-9e4cda110e59",
+        "position": "Sales Associate",
+        "hire_date": "2023-08-19T14:34:27.407Z",
+        "salary": 15477,
+        "department": "Customer Relations",
+        "created_at": "2023-08-19T08:53:55.625Z",
+        "updated_at": "2023-08-19T10:13:44.670Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ed49e925-c811-4095-a6a7-76dc46d335ab",
+        "position": "Sales Specialist",
+        "hire_date": "2023-08-18T19:07:57.692Z",
+        "salary": 95736,
+        "department": "Account Management",
+        "created_at": "2023-08-19T01:19:10.501Z",
+        "updated_at": "2023-08-19T06:39:18.142Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "role": [
+      {
+        "id": "7ed9f933-ae28-430c-8397-ffa68cc2f359",
+        "role_name": "Admin",
+        "role_description": "Responsible for managing the organization's operations",
+        "created_at": "2023-08-18T19:26:07.751Z",
+        "updated_at": "2023-08-19T08:26:00.768Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "55c7f9be-3541-466f-80ba-ce8ced28e34a",
+        "role_name": "Manager",
+        "role_description": "Oversees a team of employees",
+        "created_at": "2023-08-19T12:30:09.625Z",
+        "updated_at": "2023-08-19T06:34:34.552Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "988c2e6b-e219-4dbd-a459-21a332c47c05",
+        "role_name": "Supervisor",
+        "role_description": "Provides guidance and support to team members",
+        "created_at": "2023-08-18T20:51:19.111Z",
+        "updated_at": "2023-08-19T16:48:27.165Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "69f84a21-56c0-4d67-8e3e-dc0b35646ac7",
+        "role_name": "Employee",
+        "role_description": "Performs day-to-day tasks assigned by the supervisor",
+        "created_at": "2023-08-19T14:48:33.409Z",
+        "updated_at": "2023-08-19T09:48:18.063Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ab5b040a-e83b-49f6-a3bc-e90efc7b75c9",
+        "role_name": "Team Lead",
+        "role_description": "Leads a team towards achieving goals",
+        "created_at": "2023-08-19T02:08:08.312Z",
+        "updated_at": "2023-08-18T19:18:02.323Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "it_technician": [
+      {
+        "id": "ebb0db94-0e2d-4807-a2a1-49c164df4b4a",
+        "position": "IT Manager",
+        "hire_date": "2023-08-18T22:39:51.959Z",
+        "salary": 8111,
+        "department": "Information Technology",
+        "created_at": "2023-08-18T22:55:55.410Z",
+        "updated_at": "2023-08-19T08:53:15.888Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "615737a7-0e90-40da-b77b-f2bfdeab2e2b",
+        "position": "IT Support Specialist",
+        "hire_date": "2023-08-19T04:51:41.641Z",
+        "salary": 44173,
+        "department": "Technical Support",
+        "created_at": "2023-08-19T09:56:22.132Z",
+        "updated_at": "2023-08-19T17:48:34.524Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c80c116-fe55-48b5-8147-3e9a13652036",
+        "position": "Network Administrator",
+        "hire_date": "2023-08-19T18:38:11.584Z",
+        "salary": 18001,
+        "department": "Network Operations",
+        "created_at": "2023-08-19T18:16:30.611Z",
+        "updated_at": "2023-08-19T06:10:19.229Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1fdb4b36-52c5-4501-8b08-a2283a463ca0",
+        "position": "Systems Analyst",
+        "hire_date": "2023-08-19T15:13:57.085Z",
+        "salary": 29349,
+        "department": "Software Development",
+        "created_at": "2023-08-19T01:07:44.356Z",
+        "updated_at": "2023-08-19T09:27:43.090Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b25a47f-b210-42b8-bc06-65e47d2badf9",
+        "position": "Database Administrator",
+        "hire_date": "2023-08-18T22:56:25.769Z",
+        "salary": 75931,
+        "department": "Database Management",
+        "created_at": "2023-08-19T08:27:07.351Z",
+        "updated_at": "2023-08-19T03:51:01.079Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "2b6a1823-fb29-40b6-97be-69e7340f7095",
+        "position": "Administrator",
+        "hire_date": "2023-08-19T15:58:17.486Z",
+        "salary": 79632,
+        "department": "Administration",
+        "created_at": "2023-08-19T00:48:06.665Z",
+        "updated_at": "2023-08-19T13:14:31.957Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1b08fcbb-2885-47b2-ae33-f0ac17d97ce6",
+        "position": "Office Manager",
+        "hire_date": "2023-08-18T23:08:51.616Z",
+        "salary": 51529,
+        "department": "Human Resources",
+        "created_at": "2023-08-19T06:50:14.260Z",
+        "updated_at": "2023-08-18T21:56:29.629Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "799bd58e-39b2-4fb7-9940-faa7cca25802",
+        "position": "Executive Assistant",
+        "hire_date": "2023-08-19T00:55:43.332Z",
+        "salary": 12806,
+        "department": "Finance",
+        "created_at": "2023-08-19T17:53:29.575Z",
+        "updated_at": "2023-08-19T04:44:21.419Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b1041ed0-2ffc-48da-a6ec-ca276588c039",
+        "position": "Operations Coordinator",
+        "hire_date": "2023-08-18T21:13:01.272Z",
+        "salary": 75415,
+        "department": "Operations",
+        "created_at": "2023-08-19T09:34:59.053Z",
+        "updated_at": "2023-08-19T15:00:38.143Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d30cc9f8-69f9-4a9f-8660-f885d530551e",
+        "position": "Administrative Specialist",
+        "hire_date": "2023-08-19T10:32:45.836Z",
+        "salary": 48032,
+        "department": "Procurement",
+        "created_at": "2023-08-19T08:02:02.556Z",
+        "updated_at": "2023-08-19T15:33:04.948Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "51d7794e-e201-475f-8894-afe7d88e341d",
+        "email": "Brady97@gmail.com",
+        "firstName": "Erich",
+        "lastName": "Romaguera",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/902.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f7ebcd2b-6c37-40c7-aaa2-16e1d431230d",
+        "email": "Libby_Hoppe@yahoo.com",
+        "firstName": "Carlotta",
+        "lastName": "Ebert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/988.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8d37ecd8-bfa4-4d09-a66f-7b6df579faba",
+        "email": "Brody.Gleason@yahoo.com",
+        "firstName": "Yesenia",
+        "lastName": "Prosacco",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/17016363",
+        "tenantId": null
+      },
+      {
+        "reference": "2c17f8cc-1a6d-49e1-82b7-7f7fc3db8d0d",
+        "email": "Jay_Mann@hotmail.com",
+        "firstName": "Liana",
+        "lastName": "Borer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/42.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "29d73a59-afbc-4ab2-ba74-8e39cc3c7b85",
+        "email": "Keagan.Gibson77@hotmail.com",
+        "firstName": "Junior",
+        "lastName": "Marks",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91082986",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "sales_representative": [
+      {
+        "id": "503e19c4-53df-4cc7-a3c6-f463f93c1661",
+        "position": "Sales Manager",
+        "hire_date": "2023-08-19T05:00:25.900Z",
+        "salary": 7891,
+        "department": "Sales",
+        "created_at": "2023-08-19T10:25:39.341Z",
+        "updated_at": "2023-08-19T10:26:31.942Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5d928c1e-4e8b-4a8b-bf36-67c4e19447af",
+        "position": "Sales Executive",
+        "hire_date": "2023-08-19T01:16:36.160Z",
+        "salary": 11891,
+        "department": "Business Development",
+        "created_at": "2023-08-19T13:55:57.088Z",
+        "updated_at": "2023-08-19T16:49:17.949Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "42f9356a-7b45-4125-806c-aa739146f2d7",
+        "position": "Sales Consultant",
+        "hire_date": "2023-08-19T17:47:54.606Z",
+        "salary": 42536,
+        "department": "Account Management",
+        "created_at": "2023-08-19T00:50:45.212Z",
+        "updated_at": "2023-08-19T16:13:51.750Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "128ff6ed-93f7-4242-8bae-bab1b728d3fc",
+        "position": "Sales Analyst",
+        "hire_date": "2023-08-19T06:06:45.699Z",
+        "salary": 40074,
+        "department": "Customer Success",
+        "created_at": "2023-08-19T14:44:15.998Z",
+        "updated_at": "2023-08-19T00:59:37.178Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1e5f2ddb-9485-42ef-ace1-5f93a914f5d2",
+        "position": "Sales Coordinator",
+        "hire_date": "2023-08-19T07:15:14.916Z",
+        "salary": 62255,
+        "department": "Marketing",
+        "created_at": "2023-08-19T02:21:32.688Z",
+        "updated_at": "2023-08-19T11:45:10.840Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "role": [
+      {
+        "id": "a8dc019d-962d-4ab4-bd62-d73413628527",
+        "role_name": "Admin",
+        "role_description": "Responsible for managing the team",
+        "created_at": "2023-08-19T09:39:58.034Z",
+        "updated_at": "2023-08-19T10:28:03.741Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ff8cef56-4428-4ea6-b4c2-5239eb266c50",
+        "role_name": "Manager",
+        "role_description": "Handles day-to-day operations",
+        "created_at": "2023-08-18T23:44:46.636Z",
+        "updated_at": "2023-08-19T14:37:06.533Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d5835f6-71ec-4be5-aaa6-f219da914b7a",
+        "role_name": "Supervisor",
+        "role_description": "Provides guidance and support",
+        "created_at": "2023-08-19T11:13:29.987Z",
+        "updated_at": "2023-08-19T07:06:29.272Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "806e2223-7df8-4dd9-98e8-1947e12aa17b",
+        "role_name": "Employee",
+        "role_description": "Performs assigned tasks",
+        "created_at": "2023-08-18T23:44:06.167Z",
+        "updated_at": "2023-08-19T02:01:16.814Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "421f8d36-6b53-458b-8aec-400e153e9b79",
+        "role_name": "Team Lead",
+        "role_description": "Leads a group of employees",
+        "created_at": "2023-08-19T13:02:25.982Z",
+        "updated_at": "2023-08-19T06:36:56.517Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "it_technician": [
+      {
+        "id": "3a100792-eac4-4af1-83ca-79d527de497c",
+        "position": "IT Manager",
+        "hire_date": "2023-08-19T05:40:57.944Z",
+        "salary": 77610,
+        "department": "IT",
+        "created_at": "2023-08-18T23:01:31.686Z",
+        "updated_at": "2023-08-19T11:33:59.759Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe53d28a-51b4-4660-abe2-b06047a89906",
+        "position": "IT Support Specialist",
+        "hire_date": "2023-08-19T03:44:42.253Z",
+        "salary": 75821,
+        "department": "Information Systems",
+        "created_at": "2023-08-19T13:10:49.676Z",
+        "updated_at": "2023-08-19T17:22:45.282Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e94c5a49-b95c-4a2e-94ba-61692145a88e",
+        "position": "Network Administrator",
+        "hire_date": "2023-08-19T01:10:53.865Z",
+        "salary": 72705,
+        "department": "Technology Services",
+        "created_at": "2023-08-18T21:49:18.591Z",
+        "updated_at": "2023-08-18T19:10:11.977Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4b789680-33d7-487f-9bb3-ae797af71a59",
+        "position": "Systems Analyst",
+        "hire_date": "2023-08-18T21:13:35.493Z",
+        "salary": 21979,
+        "department": "Infrastructure",
+        "created_at": "2023-08-18T23:28:32.680Z",
+        "updated_at": "2023-08-19T06:06:18.340Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d0bd1a2c-a9c9-484b-b461-da40565f9bf5",
+        "position": "Database Administrator",
+        "hire_date": "2023-08-19T07:21:24.400Z",
+        "salary": 92035,
+        "department": "Software Development",
+        "created_at": "2023-08-19T12:15:08.062Z",
+        "updated_at": "2023-08-19T12:45:26.596Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "2aae3e01-62eb-4458-b0b7-f853df3a4fe6",
+        "position": "Administrative Manager",
+        "hire_date": "2023-08-19T14:18:09.099Z",
+        "salary": 65258,
+        "department": "Administration",
+        "created_at": "2023-08-18T22:32:30.356Z",
+        "updated_at": "2023-08-19T16:21:01.779Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1cadc233-7a1b-4658-bd1f-2eef54c03f9e",
+        "position": "Office Administrator",
+        "hire_date": "2023-08-19T16:35:30.880Z",
+        "salary": 39762,
+        "department": "Operations",
+        "created_at": "2023-08-19T01:56:47.539Z",
+        "updated_at": "2023-08-19T14:53:02.138Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a083c006-28f3-4ace-b2ef-e94d7a53db9c",
+        "position": "Executive Assistant",
+        "hire_date": "2023-08-19T03:44:28.094Z",
+        "salary": 64109,
+        "department": "Human Resources",
+        "created_at": "2023-08-18T22:04:22.945Z",
+        "updated_at": "2023-08-19T13:49:12.954Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "67050b7e-59a6-492f-8107-897590b3262c",
+        "position": "Operations Coordinator",
+        "hire_date": "2023-08-19T15:16:51.582Z",
+        "salary": 35844,
+        "department": "Finance",
+        "created_at": "2023-08-18T18:55:35.013Z",
+        "updated_at": "2023-08-18T22:55:15.973Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "742473fd-d04f-4843-8d80-6edf21e08cc6",
+        "position": "Receptionist",
+        "hire_date": "2023-08-18T18:55:55.208Z",
+        "salary": 40503,
+        "department": "Facilities",
+        "created_at": "2023-08-19T05:36:53.345Z",
+        "updated_at": "2023-08-19T00:26:46.522Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7de22365-6464-443f-abb1-7c8102393893",
+        "email": "Margarita_Ritchie@gmail.com",
+        "firstName": "Rhianna",
+        "lastName": "Prohaska",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54310327",
+        "tenantId": null
+      },
+      {
+        "reference": "2b88e6b2-b84e-48e7-9031-b0e63739b6d5",
+        "email": "Jamie33@hotmail.com",
+        "firstName": "Casey",
+        "lastName": "White",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/291.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f44773f9-5e8b-4e81-a5c7-0bf148492ac9",
+        "email": "Tyrese.Swaniawski87@hotmail.com",
+        "firstName": "Jerel",
+        "lastName": "Balistreri",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/61.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a60868a2-3259-47d9-a963-2e7b168498bf",
+        "email": "Favian.Pagac@yahoo.com",
+        "firstName": "Roman",
+        "lastName": "Littel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1078.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "72db760b-009f-4175-9b66-49c3ba4b74ae",
+        "email": "Madonna_Toy@hotmail.com",
+        "firstName": "Ruthie",
+        "lastName": "Lynch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/46435573",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "sales_representative": [
+      {
+        "id": "69c72a6a-efd3-4dd1-b6a6-d94b4ff5826d",
+        "position": "Sales Manager",
+        "hire_date": "2023-08-19T17:34:49.585Z",
+        "salary": 95820,
+        "department": "Sales",
+        "created_at": "2023-08-19T10:40:49.525Z",
+        "updated_at": "2023-08-19T14:07:55.328Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c77f725f-4b26-43dc-98b9-b61708faad14",
+        "position": "Account Executive",
+        "hire_date": "2023-08-19T00:35:49.165Z",
+        "salary": 86112,
+        "department": "Marketing",
+        "created_at": "2023-08-19T17:55:46.326Z",
+        "updated_at": "2023-08-19T14:41:06.379Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d0ba9f6e-8135-4d82-a696-6c845fb83ca3",
+        "position": "Business Development Manager",
+        "hire_date": "2023-08-19T03:37:13.295Z",
+        "salary": 66497,
+        "department": "Business Development",
+        "created_at": "2023-08-19T11:00:30.606Z",
+        "updated_at": "2023-08-19T11:47:39.486Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f4c054c5-76db-4bb0-b94c-e7af1448dd18",
+        "position": "Sales Consultant",
+        "hire_date": "2023-08-19T04:06:11.304Z",
+        "salary": 90081,
+        "department": "Customer Success",
+        "created_at": "2023-08-18T22:54:58.145Z",
+        "updated_at": "2023-08-19T00:15:38.699Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e3f155ff-1d3b-44be-aa1f-a8ca9bbf35f4",
+        "position": "Sales Coordinator",
+        "hire_date": "2023-08-19T09:16:36.084Z",
+        "salary": 83182,
+        "department": "Operations",
+        "created_at": "2023-08-19T15:22:45.975Z",
+        "updated_at": "2023-08-18T21:01:05.658Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "role": [
+      {
+        "id": "32c2dd8d-7973-43fd-af83-8fa94a78014c",
+        "role_name": "Admin",
+        "role_description": "Responsible for managing the team",
+        "created_at": "2023-08-19T10:51:16.909Z",
+        "updated_at": "2023-08-19T12:06:16.245Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "be99e9eb-b6c8-4902-a07f-b10523350760",
+        "role_name": "Manager",
+        "role_description": "Overseeing day-to-day operations",
+        "created_at": "2023-08-19T06:43:50.896Z",
+        "updated_at": "2023-08-19T08:54:42.262Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b75f853a-57a6-43ff-b397-b1a02768d2f1",
+        "role_name": "Supervisor",
+        "role_description": "Analyzing data and providing insights",
+        "created_at": "2023-08-19T15:25:01.110Z",
+        "updated_at": "2023-08-19T14:31:47.295Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51627042-f899-4e22-b237-b226aa51aca1",
+        "role_name": "Team Lead",
+        "role_description": "Leading strategic initiatives",
+        "created_at": "2023-08-19T15:27:07.921Z",
+        "updated_at": "2023-08-19T15:54:51.846Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89ec58ae-af9d-4b71-9a3f-0b593e8f8c90",
+        "role_name": "Analyst",
+        "role_description": "Ensuring compliance with company policies",
+        "created_at": "2023-08-19T10:12:00.935Z",
+        "updated_at": "2023-08-18T23:40:34.419Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "it_technician": [
+      {
+        "id": "77bfa77e-4384-4a1c-b003-2622abd18c6b",
+        "position": "IT Manager",
+        "hire_date": "2023-08-19T13:45:59.224Z",
+        "salary": 26240,
+        "department": "IT",
+        "created_at": "2023-08-19T03:14:58.619Z",
+        "updated_at": "2023-08-19T01:50:36.818Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b174e28-bcf4-451f-ac9b-3f97ea49b594",
+        "position": "Network Administrator",
+        "hire_date": "2023-08-19T12:25:13.681Z",
+        "salary": 68990,
+        "department": "Technology",
+        "created_at": "2023-08-19T12:31:37.460Z",
+        "updated_at": "2023-08-19T06:46:03.957Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "244b816b-4726-4460-bc2f-c2fb3ba39b8d",
+        "position": "Systems Analyst",
+        "hire_date": "2023-08-18T21:10:19.026Z",
+        "salary": 34308,
+        "department": "Information Systems",
+        "created_at": "2023-08-18T22:00:44.500Z",
+        "updated_at": "2023-08-19T00:04:03.813Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf8d6eb4-2302-4b23-bda5-f6c4a435a668",
+        "position": "Help Desk Technician",
+        "hire_date": "2023-08-19T06:25:03.782Z",
+        "salary": 73335,
+        "department": "Infrastructure",
+        "created_at": "2023-08-19T09:07:41.624Z",
+        "updated_at": "2023-08-18T20:03:24.719Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6594ca73-cd42-4649-b218-b71cc1411e1f",
+        "position": "Database Administrator",
+        "hire_date": "2023-08-19T18:29:55.154Z",
+        "salary": 27827,
+        "department": "Support",
+        "created_at": "2023-08-18T19:13:03.463Z",
+        "updated_at": "2023-08-19T17:01:06.967Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "1e3ab786-4be5-463e-80cd-a83a7c1a5364",
+        "position": "Office Manager",
+        "hire_date": "2023-08-19T14:50:06.715Z",
+        "salary": 15144,
+        "department": "Administration",
+        "created_at": "2023-08-18T19:02:35.996Z",
+        "updated_at": "2023-08-19T14:23:29.640Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f2e81fc-9cb1-4060-b259-4b6d7e173200",
+        "position": "Executive Assistant",
+        "hire_date": "2023-08-19T15:05:01.169Z",
+        "salary": 70057,
+        "department": "Operations",
+        "created_at": "2023-08-19T01:11:27.028Z",
+        "updated_at": "2023-08-19T02:17:49.721Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2fb8a02f-6f36-4784-af34-5ee39c1332fc",
+        "position": "Administrative Coordinator",
+        "hire_date": "2023-08-19T11:01:47.764Z",
+        "salary": 62245,
+        "department": "Human Resources",
+        "created_at": "2023-08-19T14:07:20.199Z",
+        "updated_at": "2023-08-19T08:01:44.324Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d175aba3-ea05-4308-bae0-e6a09e077a13",
+        "position": "Operations Administrator",
+        "hire_date": "2023-08-19T12:27:19.413Z",
+        "salary": 64422,
+        "department": "Finance",
+        "created_at": "2023-08-18T21:01:10.638Z",
+        "updated_at": "2023-08-19T10:15:48.121Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8b9648f6-5b31-4971-a4fb-b33d56265f93",
+        "position": "Human Resources Specialist",
+        "hire_date": "2023-08-19T15:22:02.658Z",
+        "salary": 86944,
+        "department": "Legal",
+        "created_at": "2023-08-19T17:33:03.238Z",
+        "updated_at": "2023-08-19T12:21:50.950Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ea9281d2-4289-487c-bf87-688c0135e961",
+        "email": "Armand_Krajcik@yahoo.com",
+        "firstName": "Jose",
+        "lastName": "Streich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/211.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "de1a3975-2a2e-4a11-8970-3e8c6e9da9e3",
+        "email": "Gerry43@yahoo.com",
+        "firstName": "Romaine",
+        "lastName": "Leffler",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73088738",
+        "tenantId": null
+      },
+      {
+        "reference": "6553ca54-0d36-4f14-95e1-64eb63f45d6b",
+        "email": "Darian.Legros@hotmail.com",
+        "firstName": "Addison",
+        "lastName": "Kovacek",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14617885",
+        "tenantId": null
+      },
+      {
+        "reference": "8c4b703c-6eea-4faf-ad5d-acc6cfd1193d",
+        "email": "Jaeden_Hane90@hotmail.com",
+        "firstName": "Camylle",
+        "lastName": "Schultz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/432.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1fee21d3-258b-40e3-a1f8-cd28f74691de",
+        "email": "Micah_Murphy@gmail.com",
+        "firstName": "Nathanial",
+        "lastName": "Nicolas",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/53.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "sales_representative": [
+      {
+        "id": "dafc5c49-a425-40fb-9fa9-15401d0152de",
+        "position": "Sales Manager",
+        "hire_date": "2023-08-19T08:15:53.270Z",
+        "salary": 7968,
+        "department": "Sales",
+        "created_at": "2023-08-19T07:20:17.970Z",
+        "updated_at": "2023-08-19T05:53:38.890Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1d20682-a027-4ba6-8e00-141b8d970ac5",
+        "position": "Account Executive",
+        "hire_date": "2023-08-18T22:55:50.659Z",
+        "salary": 99811,
+        "department": "Marketing",
+        "created_at": "2023-08-18T18:50:25.068Z",
+        "updated_at": "2023-08-19T02:20:00.102Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "37cb14be-4319-474f-a34c-cbb1dc8b9c23",
+        "position": "Sales Consultant",
+        "hire_date": "2023-08-19T05:34:17.327Z",
+        "salary": 69321,
+        "department": "Business Development",
+        "created_at": "2023-08-19T02:10:51.519Z",
+        "updated_at": "2023-08-19T01:30:03.184Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bfb388c3-8808-43b4-8b88-2838a7323919",
+        "position": "Business Development Manager",
+        "hire_date": "2023-08-19T18:23:45.521Z",
+        "salary": 33704,
+        "department": "Customer Relations",
+        "created_at": "2023-08-19T07:02:31.528Z",
+        "updated_at": "2023-08-18T20:37:43.470Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b1ade483-949b-4cc7-94b9-4f94ad6784ce",
+        "position": "Sales Analyst",
+        "hire_date": "2023-08-19T02:05:47.489Z",
+        "salary": 27446,
+        "department": "Account Management",
+        "created_at": "2023-08-19T11:20:14.585Z",
+        "updated_at": "2023-08-19T12:35:02.394Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "role": [
+      {
+        "id": "b600b0da-d9b6-4de5-9d8f-4abc78b2d4dd",
+        "role_name": "Administrator",
+        "role_description": "Responsible for managing daily operations",
+        "created_at": "2023-08-19T08:48:51.192Z",
+        "updated_at": "2023-08-19T16:10:35.809Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5cc2b81c-d7c6-424d-bc2e-4a7ac4ab923f",
+        "role_name": "Manager",
+        "role_description": "Overseeing team performance and productivity",
+        "created_at": "2023-08-19T00:50:49.686Z",
+        "updated_at": "2023-08-19T03:49:03.347Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "14c1ca19-b82e-43f9-8928-2df9002e0bfa",
+        "role_name": "Supervisor",
+        "role_description": "Coordinating tasks and projects",
+        "created_at": "2023-08-18T22:52:38.592Z",
+        "updated_at": "2023-08-18T21:14:19.868Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7b43ed3d-d5cb-45f2-bb15-9ce6f8d081c0",
+        "role_name": "Team Lead",
+        "role_description": "Providing guidance and support to team members",
+        "created_at": "2023-08-19T05:01:00.363Z",
+        "updated_at": "2023-08-19T14:14:33.287Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "81c115b8-9575-4a72-8b3a-5f0b035c1b3b",
+        "role_name": "Coordinator",
+        "role_description": "Ensuring compliance with company policies",
+        "created_at": "2023-08-19T14:43:51.960Z",
+        "updated_at": "2023-08-19T18:43:14.186Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "it_technician": [
+      {
+        "id": "dee39608-038a-4766-911a-7d37b2977120",
+        "position": "IT Technician",
+        "hire_date": "2023-08-18T23:11:21.566Z",
+        "salary": 15826,
+        "department": "IT",
+        "created_at": "2023-08-18T22:06:13.264Z",
+        "updated_at": "2023-08-19T10:41:59.861Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a0fb51c7-1f90-4a61-969a-134471cf3bc7",
+        "position": "Systems Administrator",
+        "hire_date": "2023-08-19T06:55:24.601Z",
+        "salary": 2701,
+        "department": "Information Systems",
+        "created_at": "2023-08-19T04:29:00.082Z",
+        "updated_at": "2023-08-19T02:42:44.213Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f23085a3-3a0c-4fcd-9392-e0b74e0ab717",
+        "position": "Network Engineer",
+        "hire_date": "2023-08-18T21:40:06.215Z",
+        "salary": 37415,
+        "department": "Technology Services",
+        "created_at": "2023-08-19T10:12:52.545Z",
+        "updated_at": "2023-08-19T03:13:26.783Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5bc0b3d1-f5b7-468a-bb72-cf499c764369",
+        "position": "IT Support Specialist",
+        "hire_date": "2023-08-19T17:48:58.288Z",
+        "salary": 84024,
+        "department": "Network Operations",
+        "created_at": "2023-08-19T08:15:54.560Z",
+        "updated_at": "2023-08-18T22:20:37.006Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a870946-c24b-45f5-9cbd-a84b098d5f33",
+        "position": "IT Operations Manager",
+        "hire_date": "2023-08-19T08:37:53.778Z",
+        "salary": 69597,
+        "department": "Infrastructure",
+        "created_at": "2023-08-19T05:37:15.797Z",
+        "updated_at": "2023-08-19T15:07:01.329Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "administrator": [
+      {
+        "id": "8c8242a3-32a1-453e-92f8-32a3d2100507",
+        "position": "Administrator",
+        "hire_date": "2023-08-18T19:17:03.898Z",
+        "salary": 67075,
+        "department": "Administration",
+        "created_at": "2023-08-19T09:54:47.594Z",
+        "updated_at": "2023-08-19T08:23:54.948Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e186428-e9db-453e-9caf-436946ea421e",
+        "position": "Office Manager",
+        "hire_date": "2023-08-19T18:34:12.958Z",
+        "salary": 564,
+        "department": "Operations",
+        "created_at": "2023-08-19T04:08:11.910Z",
+        "updated_at": "2023-08-19T08:54:51.380Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4bdba43c-411e-4220-a9df-760983c2f12b",
+        "position": "Executive Assistant",
+        "hire_date": "2023-08-18T23:32:22.567Z",
+        "salary": 43312,
+        "department": "Human Resources",
+        "created_at": "2023-08-19T03:08:19.937Z",
+        "updated_at": "2023-08-19T07:06:18.389Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c0c64a5-59ef-4e84-bd4b-cc7957136572",
+        "position": "Operations Coordinator",
+        "hire_date": "2023-08-19T17:23:51.812Z",
+        "salary": 96904,
+        "department": "Finance",
+        "created_at": "2023-08-19T02:52:56.369Z",
+        "updated_at": "2023-08-18T21:30:49.689Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c259b672-de0e-4003-b84d-167c28e44051",
+        "position": "Administrative Specialist",
+        "hire_date": "2023-08-19T08:07:00.734Z",
+        "salary": 85904,
+        "department": "Facilities",
+        "created_at": "2023-08-19T12:20:33.664Z",
+        "updated_at": "2023-08-19T10:39:50.980Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "1dfe725c-54a9-434a-a9b9-4e5a27d5ddd5",
+        "email": "Laura14@gmail.com",
+        "firstName": "Troy",
+        "lastName": "Harris",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/742.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "13db601c-d060-46d1-83ad-86ae2229e8e6",
+        "email": "Vidal.Runolfsson13@yahoo.com",
+        "firstName": "Laney",
+        "lastName": "Altenwerth",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/179.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dab06aba-42be-4f64-bd67-091e01bba3fe",
+        "email": "Clovis_Schulist90@gmail.com",
+        "firstName": "Abbigail",
+        "lastName": "Cormier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80118607",
+        "tenantId": null
+      },
+      {
+        "reference": "9ea0d853-0048-4fb6-8a4a-0ff116949779",
+        "email": "Katharina_Schimmel@hotmail.com",
+        "firstName": "Wendy",
+        "lastName": "Smith",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/2.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f0351716-b068-4aeb-b902-87b8d3e2fe64",
+        "email": "Lina_Little@hotmail.com",
+        "firstName": "Ahmed",
+        "lastName": "Dooley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/10.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
